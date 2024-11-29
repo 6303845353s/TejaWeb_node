@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teja portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="nav-bar" id="navbar">
+            <nav>
+                <a href="#aboutme">About Me</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#contact-image">Contacts</a>
+                <a href="javascript:void(0);" class="menu-icon" onclick="funResponsive()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </header>
+
+        <section id="about-image-container">
+            <div id="image">
+                <img src="mine.jpeg" alt="picture">
+                <h3>Sai Teja Somboju</h3>
+            </div>
+            <div id="aboutme">
+                <h3>About Me</h3>
+                <p>Hello! I’m a passionate software developer with 4 years of experience in building robust applications
+                    and innovative solutions. My journey in technology began with a fascination for problem-solving, and
+                    over the years, I have honed my skills in various programming languages, including JavaScript,
+                    Python, and Java. Lorem ipsum, dolor sit amet consectetur adipisicing elit. At suscipit, soluta ut
+                    ducimus veritatis corrupti exercitationem quibusdam eos! Maxime molestias harum vel provident alias?
+                    Consequuntur rerum possimus distinctio impedit eos. Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Vero dolorum nisi eligendi cupiditate reiciendis qui dicta doloremque sequi
+                    reprehenderit aspernatur eos harum quis magnam, aliquam consequuntur et eum neque porro!</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h4>Education</h4>
+            <div class="education-container">
+                <div class="education-column">
+                    <img src="education.png" alt="Education Icon" class="education-icon">
+                    <h4>Masters</h4>
+                    <p>I did my masters at the University of New Haven in Computer Science.</p>
+                </div>
+                <div class="education-column">
+                    <img src="education.png" alt="Education Icon" class="education-icon">
+                    <h4>Bachelors</h4>
+                    <p>I completed my Bachelors at Vardaman Institution of Technology in Computer Science.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h4> Projects </h4>
+            <div class="project">
+                <img src="p1.jpg" alt="Project 1 Icon" class="project-icon">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit accusamus molestiae molestias fuga
+                    id, illum voluptate deserunt</p>
+            </div>
+            <div class="project">
+                <img src="p2.png" alt="Project 2 Icon" class="project-icon">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit accusamus molestiae molestias fuga
+                    id, illum voluptate deserunt</p>
+            </div>
+            <div class="project">
+                <img src="p3.png" alt="Project 3 Icon" class="project-icon">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit accusamus molestiae molestias fuga
+                    id, illum voluptate deserunt</p>
+            </div>
+            <div class="project">
+                <img src="p4.png" alt="Project 4 Icon" class="project-icon">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit accusamus molestiae molestias fuga
+                    id, illum voluptate deserunt</p>
+            </div>
+        </section>
+
+        <section id="experience-blogs-container">
+            <article id="experience">
+                <h4>Experience</h4>
+                <p>Utilized Java, Spring Boot, and Microservices architecture to build scalable and maintainable
+                    applications.</p>
+            </article>
+            <article id="blogs">
+                <h4>
+                    <img src="image.png" alt="Blog Icon" class="blog-icon"> Blogs
+                </h4>
+                <p>Embracing Agile Methodologies in Software Development</p>
+                <p>Cloud Computing: Transforming the Way We Build Applications</p>
+            </article>
+        </section>
+
+        <footer id="contact-image">
+            <h4>Contacts</h4>
+            <div id="contact-images">
+                <a>
+                    <img src="https://thumb.ac-illust.com/01/018416a708cc44b0a2a89bfc92e2dbad_t.jpeg" alt="Email"
+                        class="picture">
+                </a>
+                <a>
+                    <img src="https://cdn-icons-png.freepik.com/256/455/455705.png?semt=ais_hybrid" alt="Phone"
+                        class="picture">
+                </a>
+                <a>
+                    <img src="https://static-00.iconduck.com/assets.00/linkedin-with-circle-icon-512x512-cvyrro5n.png"
+                        alt="LinkedIn" class="picture">
+                </a>
+                <a>
+                    <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" alt="GitHub"
+                        class="picture">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <style>
+        body {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        "nav nav nav nav"
+        "image aboutme aboutme aboutme  "
+        "education education education education "
+        "projects projects projects projects "
+        "experience experience blogs blogs "
+        "footer footer footer footer ";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto; 
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.nav-bar {
+    grid-area: nav;
+    background-color: #3498db;
+    padding: 10px;
+}
+
+.nav-bar a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#about-image-container {
+    display: contents; 
+}
+
+#image {
+    grid-area: image;
+    background-color: #ecf0f1;
+    padding: 20px;
+    width: 240px;
+}
+
+#image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#aboutme {
+    grid-area: aboutme;
+    background-color: #ecf0f1;
+    height: 282.5px;
+}
+
+#education {
+    grid-area: education;
+    background-color: #09a5cd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#projects {
+    grid-area: projects;
+    background-color: #3498db;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#experience-blogs-container {
+    display: contents; 
+}
+
+#experience {
+    grid-area: experience;
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#blogs {
+    grid-area: blogs;
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #3498db;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.education-container {
+    text-align: center;
+}
+
+.education-column {
+    display: inline-block;
+    background-color: #e1070736;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 450px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.blog-icon, .education-icon, .project-icon, .picture {
+    width: 50px; 
+    height: 50px; 
+}
+
+.picture {
+    margin: 0 80px; 
+    padding: 0;
+}
+
+
+#education:target, #projects:target, #experience:target, #blogs:target, #contact-image:target, #aboutme:target{
+    background-color: #777d7e;
+}
+
+.nav-bar .menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        grid-template-areas: 
+            "nav"
+            "image"
+            "aboutme"
+            "education"
+            "projects"
+            "experience"
+            "blogs"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+
+    .nav-bar a:not(.menu-icon) {
+        display: none;
+    }
+
+    .nav-bar a.menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+
+    .nav-bar.responsive a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        background-color: #3498db;
+        border-top: 1px solid #ffffff;
+    }
+
+
+    .nav-bar.responsive a.menu-icon {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    
+    #image {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .education-column,
+    .project {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+    </style>
+    <script>
+        function funResponsive() {
+            var x = document.getElementById("navbar");
+            if (x.className === "nav-bar") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-bar";
+            }
+        }
+    </script>
+</body>
+
+</html>

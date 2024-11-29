@@ -1,0 +1,84 @@
+{
+    "musicHits": [
+        {
+            "song_id": 1,
+            "song_name": "Lonely",
+            "singer": "AKON",
+            "Duration": "3min",
+            "likes": "250m",
+            "comments": "200k"
+        },
+        {
+            "song_id": 2,
+            "song_name": "Shape of You",
+            "singer": "Ed Sheeran",
+            "Duration": "4min",
+            "likes": "1.5b",
+            "comments": "1m"
+        },
+        {
+            "song_id": 3,
+            "song_name": "Blinding Lights",
+            "singer": "The Weeknd",
+            "Duration": "3min 20sec",
+            "likes": "1b",
+            "comments": "750k"
+        },
+        {
+            "song_id": 4,
+            "song_name": "Someone Like You",
+            "singer": "Adele",
+            "Duration": "4min 45sec",
+            "likes": "800m",
+            "comments": "500k"
+        },
+        {
+            "song_id": 5,
+            "song_name": "Hips Don't Lie",
+            "singer": "Shakira",
+            "Duration": "3min 38sec",
+            "likes": "600m",
+            "comments": "450k"
+        },
+        {
+            "song_id": 6,
+            "song_name": "See You Again",
+            "singer": "Wiz Khalifa ft. Charlie Puth",
+            "Duration": "3min 49sec",
+            "likes": "1.3b",
+            "comments": "900k"
+        },
+        {
+            "song_id": 7,
+            "song_name": "Uptown Funk",
+            "singer": "Mark Ronson ft. Bruno Mars",
+            "Duration": "4min 30sec",
+            "likes": "2b",
+            "comments": "1.2m"
+        },
+        {
+            "song_id": 8,
+            "song_name": "Rolling in the Deep",
+            "singer": "Adele",
+            "Duration": "3min 48sec",
+            "likes": "950m",
+            "comments": "600k"
+        },
+        {
+            "song_id": 9,
+            "song_name": "Levitating",
+            "singer": "Dua Lipa ft. DaBaby",
+            "Duration": "3min 23sec",
+            "likes": "850m",
+            "comments": "450k"
+        },
+        {
+            "song_id": 10,
+            "song_name": "Bad Guy",
+            "singer": "Billie Eilish",
+            "Duration": "3min 14sec",
+            "likes": "700m",
+            "comments": "800k"
+        }
+    ]
+}
